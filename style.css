@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 35px;
+    width: 100%;
+    position: fixed;
+}
+
+header #men {
+    font-family: cursive;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    margin: 8px;
+}
+
+header nav a:hover {
+    background-color: rgb(105, 111, 111);
+    border-radius: 8px;
+}
+
+header input {
+    border-radius: 8px;
+    border: none;
+    padding: 6px;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(img/photo_2026-04-02_01-19-01.jpg);
+    background-size: cover;
+    background-position: center;
+    gap: 20px;
+}
+
+.container h1,
+p {
+    color: white;
+    padding: 5px;
+}
+
+.cards {
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    gap: 10px;
+}
+
+.cards .card {
+    background-color: rgb(105, 111, 111);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.cards .card img {
+    width: 130px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.cards .card h2 {
+    font-size: 15px;
+    font-family: cursive;
+    text-align: center;
+    line-height: 30px;
+}
+
+.cards .card button{
+    padding: 5px;
+    width: 100px;
+    border-radius: 6px;
+    font-family: cursive;
+}
