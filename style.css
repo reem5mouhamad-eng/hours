@@ -50,6 +50,7 @@ header input {
     background-size: cover;
     background-position: center;
     gap: 20px;
+    font-size: 40px;
 }
 
 .container h1,
@@ -66,6 +67,7 @@ p {
     justify-content: center;
     background-position: center;
     gap: 10px;
+   
 }
 
 .cards .card {
@@ -74,6 +76,9 @@ p {
     padding: 10px;
     margin: 20px;
     border-radius: 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+
 }
 
 .cards .card img {
@@ -89,7 +94,7 @@ p {
     line-height: 30px;
 }
 
-.cards .card button{
+button {
     padding: 5px;
     width: 100px;
     border-radius: 6px;
